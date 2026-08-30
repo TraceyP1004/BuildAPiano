@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #325719;
   margin: 0;
@@ -36,4 +37,17 @@ width: var(--width);
   margin-left: calc(var(--width) / -2);
   margin-right: calc(var(--width) / -2);
   z-index: 2;
+}
+
+.white.active {
+    background-color: #aaaaaa;
+}
+
+.black.active {
+    background-color: #222222;
+}
+
+.musicbutton:active {
+    background-color: #a06916;
+
 }
